@@ -30,7 +30,7 @@ function Projects() {
         />
         <ProjectCard
           src={ChatApp}
-          link="https://chat-app-mern-2fzb.onrender.com/login"
+          link="https://github.com/manimegalai2508/Chat-app"
           h3="ChatApp"
           p="Chatting App"
         />
