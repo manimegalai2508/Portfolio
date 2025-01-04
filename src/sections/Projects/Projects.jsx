@@ -23,7 +23,7 @@ function Projects() {
           p="Nutritious Restaurant"
         />
         <ProjectCard
-          src={deals}
+          src={FinFlex}
           link="https://github.com/manimegalai2508/Doorstep-Deals"
           h3="Doorstep Deals"
           p="E-Commerce Website"
