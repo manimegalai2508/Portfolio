@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import AetherAI from '../../assets/AetherAI.png';
 import Nutritious from '../../assets/Nutritious.png';
-import FinFlex from '../../assets/FinFlex.png';
+import FinFlex from '../../assets/deals.png';
 import ChatApp from '../../assets/ChatApp.png';
 import ProjectCard from '../../common/ProjectCard';
 
