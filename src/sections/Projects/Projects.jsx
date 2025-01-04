@@ -23,10 +23,10 @@ function Projects() {
           p="Nutritious Restaurant"
         />
         <ProjectCard
-          src={FinFlex}
-          link="https://finflex-xi.vercel.app/"
-          h3="FinFlex"
-          p="Credit Solutions"
+          src={deals}
+          link="https://github.com/manimegalai2508/Doorstep-Deals"
+          h3="Doorstep Deals"
+          p="E-Commerce Website"
         />
         <ProjectCard
           src={ChatApp}
