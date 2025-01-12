@@ -50,7 +50,7 @@ function Hero() {
           </a>
         </div>
         <p className={styles.description}>
-        Passionate about crafting modern web apps, with expertise in project management and data visualization.
+        Passionate about leveraging technology to create impactful solutions and seeking opportunities to innovate and grow.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
