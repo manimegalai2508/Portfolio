@@ -12,33 +12,32 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="HTML" />
-        <SkillList src={checkMarkIcon} skill="CSS" />
-        <SkillList src={checkMarkIcon} skill="JavaScript" />
-        <SkillList src={checkMarkIcon} skill="Python" />
-        <SkillList src={checkMarkIcon} skill="Node.js" />
-      </div>
-      
+<div className={styles.skillList}>
+  <SkillList src={checkMarkIcon} skill="Meta Ads Manager" />
+  <SkillList src={checkMarkIcon} skill="Google Ads" />
+  <SkillList src={checkMarkIcon} skill="Performance Marketing" />
+  <SkillList src={checkMarkIcon} skill="SEM & SEO Strategy" />
+  <SkillList src={checkMarkIcon} skill="Email & SMS Marketing" />
+</div>
+
+<hr />
+
+<div className={styles.skillList}>
+  <SkillList src={checkMarkIcon} skill="Google Analytics (GA4)" />
+  <SkillList src={checkMarkIcon} skill="Python for Marketing Analytics" />
+  <SkillList src={checkMarkIcon} skill="CRM Management" />
+  <SkillList src={checkMarkIcon} skill="Marketing Automation" />
+  <SkillList src={checkMarkIcon} skill="Data Visualization" />
+</div>
       <hr />
       
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="React.js" />
-        <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
-        <SkillList src={checkMarkIcon} skill="UX/UI Design" />
-        <SkillList src={checkMarkIcon} skill="MongoDB" />
-        <SkillList src={checkMarkIcon} skill="Data Visualization" />
-      </div>
-      
-      <hr />
-      
-      <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Project Management" />
-        <SkillList src={checkMarkIcon} skill="Business Intelligence" />
-        <SkillList src={checkMarkIcon} skill="Interpersonal Skills" />
-        <SkillList src={checkMarkIcon} skill="Creativity" />
-        <SkillList src={checkMarkIcon} skill="Team Coordination" />
-      </div>
+  <div className={styles.skillList}>
+  <SkillList src={checkMarkIcon} skill="Content & Copywriting" />
+  <SkillList src={checkMarkIcon} skill="Growth Strategy" />
+  <SkillList src={checkMarkIcon} skill="Conversion Rate Optimization (CRO)" />
+  <SkillList src={checkMarkIcon} skill="Market & Competitor Research" />
+  <SkillList src={checkMarkIcon} skill="Campaign Performance Audit" />
+</div>
     </section>
   );
 }
