@@ -37,7 +37,7 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>Manimegalai</h1>
-        <h2>Performance Marketing Strategist</h2>
+        <h2>Performance Marketing Executive</h2>
         <div className={styles.socialLinks}>
           <a href="https://x.com/Manimegalai_25" target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -50,7 +50,7 @@ function Hero() {
           </a>
         </div>
         <p className={styles.description}>
-        Not just another marketer — a data-driven performance strategist building scalable, high-ROI growth engines.
+        Performance marketing enthusiast building high-ROI campaigns that drive measurable growth.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
