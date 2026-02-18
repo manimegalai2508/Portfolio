@@ -1,27 +1,33 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* LEFT ALIGN EVERYTHING */
-  text-align: left;
+  align-items: center; /* center whole section */
+  text-align: left; /* important */
 }
 
 .skillList {
   display: flex;
-  flex-direction: column; /* STACK ITEMS VERTICALLY */
-  align-items: flex-start;
-  gap: 12px; /* clean spacing */
+  flex-direction: column;
+  gap: 12px;
   width: 100%;
   max-width: 400px;
 }
 
 .skillList span {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* align top if wraps */
   gap: 10px;
+  width: 100%;
+}
+
+.skillList span p {
+  margin: 0;
+  text-align: left;
 }
 
 .skillList img {
   width: 18px;
+  margin-top: 3px; /* keeps icon aligned with first line */
 }
 
 hr {
