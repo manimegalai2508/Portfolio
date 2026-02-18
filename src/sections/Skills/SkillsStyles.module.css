@@ -1,47 +1,41 @@
 .container {
   display: flex;
   flex-direction: column;
-  text-align: center;
-
-  span {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-
-  img {
-    width: 20px;
-  }
+  align-items: flex-start; /* LEFT ALIGN EVERYTHING */
+  text-align: left;
 }
 
 .skillList {
   display: flex;
-  justify-content: space-evenly;
-  align-self: center;
-  flex-wrap: wrap;
-  row-gap: 40px;
-  max-width: 26ch;
+  flex-direction: column; /* STACK ITEMS VERTICALLY */
+  align-items: flex-start;
+  gap: 12px; /* clean spacing */
+  width: 100%;
+  max-width: 400px;
+}
+
+.skillList span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skillList img {
+  width: 18px;
 }
 
 hr {
-  width: 100px;
+  width: 100%;
+  max-width: 400px;
   height: 1px;
   border: none;
   background-color: var(--text-color);
-  margin: 30px auto;
+  margin: 25px 0;
 }
 
 @media (width >= 800px) {
-  .skillList {
-    max-width: fit-content;
-    gap: 30px;
-
-    p {
-      font-size: 20px;
-    }
-  }
-
-  hr {
-    width: 300px;
+  .skillList p {
+    font-size: 18px;
   }
 }
+
