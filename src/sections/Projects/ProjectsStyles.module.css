@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* Section Title */
+.container .sectionTitle {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+/* Cards Wrapper */
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+/* Each Card Link */
+.projectsContainer a {
+  width: 260px;
+  text-decoration: none;
+  color: #222;
+  background-color: var(--project-card-bg);
+  border-radius: 20px;
+  padding: 18px;
+  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+/* Card Hover Effect */
+.projectsContainer a:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Image (PDF Preview Image) */
+.projectsContainer img {
+  width: 100%;
+  max-width: 240px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Card Title */
+.projectsContainer h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Card Description */
+.projectsContainer p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Desktop Layout */
+@media (width >= 800px) {
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+}

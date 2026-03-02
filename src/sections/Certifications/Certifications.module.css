@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* Section Title */
+.sectionTitle {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: var(--text-color);
+}
+
+/* Cards Wrapper */
+.certificationsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+/* Individual Card */
+.card {
+  width: 260px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: var(--project-card-bg);
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 200ms ease-in-out,
+              box-shadow 200ms ease-in-out,
+              background-color 200ms ease-in-out;
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* Card Title */
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+/* Card Subtitle */
+.card p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Desktop Layout */
+@media (width >= 800px) {
+  .certificationsContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+}
