@@ -1,12 +1,26 @@
-# Portfolio 🌟
+# 🌟 Manimegalai K – Digital Growth Marketer
 
-Welcome to my portfolio! This project, built with React, showcases my web development and project management skills. 
+## Welcome to My Portfolio
 
-## Features 🚀
+I’m a performance-focused marketer blending data, consumer psychology, and technical expertise to build high-ROI digital campaigns that drive measurable growth.
 
-- **Dynamic Project Showcase:** Interactive display of various projects with detailed descriptions. 📂
-- **Responsive Design:** Optimized for different devices and screen sizes. 📱💻
-- **Modern UI/UX:** Clean and user-friendly interface focusing on aesthetics and functionality. 🎨
-- **Strategic Insight:** Highlights my ability to manage projects effectively and integrate valuable insights for impactful results. 📊
+## 🚀 What This Portfolio Shows
 
-Feel free to explore and reach out.
+- Performance Marketing Strategy
+- Google & Meta Ads Expertise
+- Growth-Focused Case Studies
+- Marketing Automation & CRM
+- Data Analytics (GA4, Python)
+
+## 📊 Core Strength
+
+I don’t just run ads — I engineer scalable performance systems backed by analytics and optimization.
+
+## 🎓 Certified In
+
+Google Ads  
+Google Data Analytics  
+Google Project Management  
+HubSpot Marketing  
+SQL  
+Python
